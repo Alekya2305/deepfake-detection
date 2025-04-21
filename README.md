@@ -52,4 +52,4 @@ Fake
 
 # Dataset Download
 Due to size (9.45 GB), download from:  
-[Google Drive Link](https://drive.google.com/drive/u/1/home)
+[Google Drive Link](https://drive.google.com/drive/folders/1EDQZryUkcMjvtIiQvPCcT-RDwfAH0OdN?usp=sharing)
