@@ -50,6 +50,11 @@ Real
 
 Fake
 
-# Dataset Download
+### Dataset Download
 Due to size (9.45 GB), download from:  
 [Google Drive Link](https://drive.google.com/drive/folders/1EDQZryUkcMjvtIiQvPCcT-RDwfAH0OdN?usp=sharing)
+
+## Key Implementation Details  
+- **Frame Sampling**: Fixed 30-frame stride ([VideoFrameSampler.py](<GitHub_link_to_file>#L12)).  
+- **Temporal Pooling**: Mean aggregation across features ([model.py](<GitHub_link_to_file>#L45)).  
+- **Training**: Adam (lr=0.0001), BCELoss ([train.py](<GitHub_link_to_file>#L88)).  
